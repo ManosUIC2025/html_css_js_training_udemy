@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Page</title>
+        <style>
+            .blue { color: blue; }
+            .red { color: red; }
+            .green { color: green; }
+            table, th, td { border: 1px solid black;
+            border-collapse: collapse; padding: 5px;}
+        </style>
+    </head>
+    <body>
+        <table>
+            <colgroup>
+                <col span="2">
+                <col span="1" style="background-color: red">
+            </colgroup>
+            <tr>
+                <th>Name</th>
+                <th>Chapter 1</th>
+                <th>Chapter 2</th>
+                <th>Chapter 3</th>
+                <th>Chapter 4</th>
+            </tr>
+            <tr>
+                <td>Manos</td>
+                <td>x</td>
+                <td></td>
+                <td>x</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td></td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+            <tr>
+                <td>Anne</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+        </table>
+        <div style="height:500px;"></div>
+        <div>
+            <a href="#bottom">Go to bottom</a>
+            <img src="images/uic-logo.svg" alt="UIC Logo" width="200px" height="200px">
+            <ol type="i" start="20">
+                <li>First item</li>
+                <li>Second item</li>
+                <li>New list
+                    <ol>
+                        <li>One</li>
+                        <li>Two</li>
+                        <li>Three</li>
+                    </ol>
+                </li>
+                <li>Fourth item</li>
+            </ol>
+             <ul style="list-style-type: upper-latin;">
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li>
+            </ul>
+            <dl>
+                <dt>Main 1</dt>
+                <dd>Definition 1</dd>
+                <dd>Definition 2</dd>
+                <dt>Main 2</dt>
+                <dd>Definition 3</dd>
+                <dd>Definition 4</dd>
+            </dl>
+            <!-- <img src="https://climate.copernicus.eu/sites/default/files/styles/hero_image_extra_large_2x/public/2023-07/iStock-1267333118.jpg?itok=1udeNtwZ" width="300px" height="300px" alt="The Sea"> -->
+        </div>
+        <p id="myID">
+            Hello<br><a href="http://www.google.com" target="_blank">World!</a>
+        </p>
+        <div>
+            <h1>Hello World!</h1>
+            <div style="color: blue;">Welcome to my page.</div>
+            <div style="color: red;">Welcome to my page.</div>
+            <hr>
+            <p title="My Name">My name is <span>Manos</span> <span>Koufadakis</span></p>
+        </div>
+        <hr>
+        <h2 class="blue">Heading 2</h2>
+        <h3 class="red">Heading 3</h3>
+        <h6 class="green">Heading 6</h6>
+        <p>Go to <a href="new.html">new page</a></p>
+        <p>Send email <a href="mailto:manos.koufadakis@uicdigital.com">manos.koufadakis@uicdigital.com</a></p>
+        <div id="bottom">
+            Go to the top element of id=<a href="#myID">MyID</a>
+        </div>
+    </body>
+</html>
