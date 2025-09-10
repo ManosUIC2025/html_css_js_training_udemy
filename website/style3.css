@@ -1,0 +1,33 @@
+div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+h2 {
+    border: solid blue 2px;
+    background-color: aqua;
+    width: 100px;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.red {
+    background-color: red;
+    border: 1px dotted;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin: 10px 20px 30px 40px;
+}
+
+#bottom {
+    border: 10px dotted;
+    padding: 10px 20px 30px 40px;
+    background-color: yellow;
+}

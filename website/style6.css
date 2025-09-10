@@ -1,0 +1,38 @@
+a:link {
+    color: red
+}
+
+a:visited {
+    color: green
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+h1:hover {
+    background-color: orange;
+}
+
+h1:active {
+    background-color: red;
+}
+
+#bottom span:first-of-type {
+    color: red
+}
+
+/* it works if first child is <span> */
+/* #bottom span:first-child {
+    color: red
+} */

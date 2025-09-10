@@ -1,0 +1,36 @@
+li {
+    float: left;
+}
+
+ul {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+/* .left {
+    float: left;
+
+} */
+
+article {
+    width: 50%;
+    background: lightgreen;
+    float: left;
+}
+
+aside {
+    width: 50%;
+    background: lightblue;
+    float: left;
+}
+
+footer {
+    /* clear: both; */
+    float: left;
+    /* width: 20%; */
+    background: lightsalmon;
+}
+
+img {
+    float: left;
+}

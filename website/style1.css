@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: "Pacifico", cursive;
+}
+
+h1, h4, h6 {
+    background-color: purple;
+}

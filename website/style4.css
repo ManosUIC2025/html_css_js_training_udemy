@@ -1,0 +1,25 @@
+#bottom {
+    color: red;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 1;
+    text-align: left;
+    text-transform: uppercase;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    word-spacing: 20px;
+    white-space: normal;
+}
+
+.small {
+    font-size: 0.6em;
+    background-color: yellow;
+    vertical-align: text-top;
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 5px 10px 3px black;
+}

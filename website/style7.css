@@ -1,0 +1,27 @@
+li {
+    background-color: black;
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    color: white;
+}
+
+span {
+    display: none;
+    visibility: visible;
+    border: 1px solid red;
+    font-size: 1em;
+}
+
+#bottom {
+    display: grid;
+}
