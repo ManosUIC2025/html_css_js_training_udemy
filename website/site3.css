@@ -1,0 +1,75 @@
+/* resizable website using grid */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header,
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-areas:
+        'cola colb colb colc';
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+.col {
+    padding: 5px;
+}
+
+.main aside:first-child {
+    grid-area: cola;
+    background-color: steelblue;
+    padding: 20px;
+}
+
+.main article {
+    grid-area: colb;
+    background-color: white;
+}
+
+.main aside:last-child {
+    grid-area: colc;
+    background-color: red;
+}
+
+.footer {}
+
+@media (max-width:640px) {
+    .main {
+        grid-template-areas:
+            'cola'
+            'colb'
+            'colc';
+    }
+}

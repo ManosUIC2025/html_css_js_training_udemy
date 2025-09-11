@@ -1,0 +1,45 @@
+header {
+    outline-color: magenta;
+    outline-width: 2px;
+    outline-style: solid;
+    border: solid 5px yellow;
+    max-width: 800px;
+    margin: auto;
+    z-index: 0;
+}
+
+ul {
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    outline: solid 2px green;
+    background-color: midnightblue;
+}
+
+footer {
+    font-size: 2em;
+    height: 50px;
+    width: 70%;
+    background: black;
+    color: yellow;
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+article,
+aside {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+article {
+    background: red;
+    z-index: 2;
+}
+
+aside {
+    background: blue;
+    z-index: 3;
+}

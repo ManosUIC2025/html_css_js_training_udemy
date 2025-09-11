@@ -1,0 +1,84 @@
+/* resizable website using float */
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: paleturquoise;
+    width: 90%;
+    margin: auto;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.main {
+    border: 1px solid black;
+    background-color: red;
+}
+
+.col {
+    float: left;
+    border: 1px solid black;
+}
+
+.main aside {
+    background-color: lightgrey;
+    width: 20%;
+}
+
+.main article {
+    width: 60%;
+    background-color: white;
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+li:hover {
+    background-color: red;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white
+}
+
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9em;
+    background-color: black;
+    color: white;
+}
+
+.footer a {
+    color: red;
+    text-decoration: none;
+}
+
+@media (max-width: 640px) {
+    body {
+        background-color: royalblue;
+    }
+
+    .main article,
+    .main aside {
+        width: 100%;
+    }
+}
