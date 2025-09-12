@@ -14,25 +14,12 @@
 </head>
 
 <body>
-    <h1 id="h1" class="output">Hello DOM</h1>
+    <h1 class="output">Hello DOM</h1>
     <div class="output">JavaScript</div>
     <div id="myEle">Hello World</div>
-    <input name="first">
-    <input name="last">
-    <input type="checkbox">
-    <button>Click Me</button>
     <div>Hello World 2</div>
     <div class="output">JavaScript</div>
-    <div class="holder">
-        <div class="one">One
-            <div class="two">Two
-                <div class="three">
-                    Three
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="dom5.js"></script>
+    <script src="dom4.js"></script>
 </body>
 
 </html>
