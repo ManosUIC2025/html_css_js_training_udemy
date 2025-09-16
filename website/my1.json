@@ -1,0 +1,20 @@
+{
+    "name": "John Smith",
+    "age": 32,
+    "address": {
+        "street": "123 Oak Avenue",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": 60607
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "312-555-1234"
+        },
+        {
+            "type": "work",
+            "number": "312-555-5678"
+        }
+    ]
+}
