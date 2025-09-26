@@ -10,7 +10,7 @@ function PageTitle() {
         // return () => {
         //     document.removeEventListener('keydown', handleKeyPress);
         // }
-    });
+    }, [name]);
 
     // function handleKeyPress(event) {
     //     setName("key down pressed")
