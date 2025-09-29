@@ -17,7 +17,9 @@ import React from 'react'
 // import Counter from './components/useEffectCourse/Counter'
 //import LocalStorage from './components/localStorageCourse/LocalStorage'
 // import LazyInitialization from './components/useStateCourse/LazyInitialization'
-import RoutesCourse from './components/routesCourse/RoutesCourse';
+//import RoutesCourse from './components/routesCourse/RoutesCourse';
+//import TableCourse from './components/tableCourse/TableCourse'
+import UseContextCourse from './components/useContextCourse/UseContextCourse'
 
 const App = () => {
   return (
@@ -41,7 +43,9 @@ const App = () => {
       {/* <Counter /> */}
       {/* <LocalStorage /> */}
       {/* <LazyInitialization /> */}
-      {<RoutesCourse />}
+      {/* {<RoutesCourse />} */}
+      {/* <TableCourse /> */}
+      <UseContextCourse />
     </>
   )
 }
