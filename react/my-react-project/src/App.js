@@ -15,7 +15,9 @@ import React from 'react'
 // import FetchAPI from './components/fetchAPICourse/FetchAPI'
 // import PageTitle from './components/useEffectCourse/PageTitle'
 // import Counter from './components/useEffectCourse/Counter'
-import LocalStorage from './components/localStorageCourse/LocalStorage'
+//import LocalStorage from './components/localStorageCourse/LocalStorage'
+// import LazyInitialization from './components/useStateCourse/LazyInitialization'
+import RoutesCourse from './components/routesCourse/RoutesCourse';
 
 const App = () => {
   return (
@@ -37,7 +39,9 @@ const App = () => {
       {/* <FetchAPI /> */}
       {/* <PageTitle /> */}
       {/* <Counter /> */}
-      <LocalStorage />
+      {/* <LocalStorage /> */}
+      {/* <LazyInitialization /> */}
+      {<RoutesCourse />}
     </>
   )
 }
