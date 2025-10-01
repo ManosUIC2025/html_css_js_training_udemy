@@ -19,8 +19,9 @@ import React from 'react'
 // import LazyInitialization from './components/useStateCourse/LazyInitialization'
 //import RoutesCourse from './components/routesCourse/RoutesCourse';
 //import TableCourse from './components/tableCourse/TableCourse'
-import UseContextCourse from './components/useContextCourse/UseContextCourse'
-
+//import UseContextCourse from './components/useContextCourse/UseContextCourse'
+//import PropsCourse from './components/propsCourse/PropsCourse'
+import ReduxCourse from './components/reduxCourse/ReduxCourse'
 const App = () => {
   return (
     <>
@@ -45,7 +46,9 @@ const App = () => {
       {/* <LazyInitialization /> */}
       {/* {<RoutesCourse />} */}
       {/* <TableCourse /> */}
-      <UseContextCourse />
+      {/* <UseContextCourse /> */}
+      {/* <PropsCourse /> */}
+      <ReduxCourse />
     </>
   )
 }
