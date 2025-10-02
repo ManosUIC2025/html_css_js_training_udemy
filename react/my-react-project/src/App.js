@@ -21,7 +21,9 @@ import React from 'react'
 //import TableCourse from './components/tableCourse/TableCourse'
 //import UseContextCourse from './components/useContextCourse/UseContextCourse'
 //import PropsCourse from './components/propsCourse/PropsCourse'
-import ReduxCourse from './components/reduxCourse/ReduxCourse'
+//import ReduxCourse from './components/reduxCourse/ReduxCourse'
+import ToDoList from './components/todoListCourse/ToDoList'
+
 const App = () => {
   return (
     <>
@@ -48,7 +50,8 @@ const App = () => {
       {/* <TableCourse /> */}
       {/* <UseContextCourse /> */}
       {/* <PropsCourse /> */}
-      <ReduxCourse />
+      {/* <ReduxCourse /> */}
+      <ToDoList />
     </>
   )
 }
