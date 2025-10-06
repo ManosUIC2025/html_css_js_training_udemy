@@ -1,10 +1,19 @@
-import React from 'react'
-import { NavBar } from './components'
+import React from 'react';
+import { Hero, Navbar,Companies, Courses, Achievement, Categories, Feedback, CTA, Footer } from './components';
+import './App.css'
 
 const App = () => {
   return (
     <div>
-      <NavBar />
+      <Navbar />
+      <Hero />
+      <Companies/>
+      <Courses />
+      <Achievement />
+      <Categories />
+      <Feedback />
+      <CTA />
+      <Footer />
     </div>
   )
 }
